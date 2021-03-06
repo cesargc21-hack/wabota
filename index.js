@@ -273,10 +273,10 @@ Selamat datang di
 ┏━━━━━━━━━━━━━━━━━━━━
 ┃──────〘  *Intro* 〙───────
 ┃━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *Nama* :
-┠⊷️ *Umur* :
-┠⊷️ *Asal Kota* :
-┠⊷️ *Gender* :
+┠⊷️ *Nombre* :
+┠⊷️ *Edad* :
+┠⊷️ *Ciudad* :
+┠⊷️ *Genero* :
 ┗━━━━━━━━━━━━━━━━━━━━
 
 Ketik ${prefix}verify untuk memulai menggunakan bot.`
@@ -319,7 +319,7 @@ Ketik ${prefix}verify untuk memulai menggunakan bot.`
 			const isCmd = body.startsWith(prefix)
       const is = budy.slice(0).trim().split(/ +/).shift().toLowerCase()
 			mess = {
-  wait: '*☐* Silahkan tunggu',
+  wait: '⚆ _ ⚆ -» ⏳ Por favor esperé ⏳',
   success: '*☉* Berhasil',
   Public: '*☒* fitur dalam mode private sekarang hanya owner yang dapat menggunakan bot',
   ferr: 'Maaf sepertinya fitur sedang Error',
@@ -584,43 +584,22 @@ Hai *${pushname}*
         ────────────────͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏
         ────────────────
 〘 *BOT* 〙
-‣ Prefix:  *「 ${prefix} 」*
-‣ Nama: *I'm Lexa V.2*
+‣ Prefijo:  *「 ${prefix} 」*
+‣ Nombre: *I'm Lexa V.2*
 ‣ WAConnection: *Baileys*
 ‣ Status online: *${kyun(uptime)}*
 ‣ Mengetik: *ON*
-‣ Group:  *${groupName}*
-‣ Jumlah user : *${_registered.length} User*
-‣ Jumlah chat : *${totalchat.length} Chat*
-‣ Github : https://github.com/mrfzvx12/termux-whatsapp-bot
-‣ Official group
-• _${Wa1}_
-
-• _${Wa2}_
-‣ Follow IG:
-_${Ig}_
+‣ Grupo:  *${groupName}*
+‣ Número de usuarios : *${_registered.length} User*
+‣ Número de chats : *${totalchat.length} Chat*
       ────────────────
 ┏━━━━━━━━━━━━━━━━━━━━
-┃─────〘 *I'm Lexa V.2* 〙────
-┃━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Simi (Teks)*
-┃ _Simsimi Chat_
-┠⊷️ *${prefix}Info*
-┃ _Info tentang bot_
-┠⊷️ *${prefix}Owner*
-┃ _Info pemilik Bot_
-┠⊷️ *${prefix}Donasi*
-┃ _Info donasi_
-┠⊷️ *${prefix}Ping*
-┃ _Mengetahui kecepatan respon_
+┃─────〘  *Lista de menu* 〙─────
 ┗━━━━━━━━━━━━━━━━━━━━
-┏━━━━━━━━━━━━━━━━━━━━
-┃─────〘  *List menu* 〙─────
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 GRUP 〙*
+*〘 GRUPO 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Listadmin*
-┃ _Menampilkan list admin_
+┃ _Lista de administradores_
 ┠⊷️ *${prefix}Listonline*
 ┃ _Menampilkan list member online_
 ┠⊷️ *${prefix}Closegc*
@@ -652,65 +631,6 @@ _${Ig}_
 ┠⊷️ *${prefix}Delete (Reply pesan)*
 ┃ _Menghapus pesan Bot_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 FUN 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Alay (Teks)*
-┃ _Font Alay_
-┠⊷️ *${prefix}Alay2 (Teks)*
-┃ _Font Alay_
-┠⊷️ *${prefix}Reverse (Teks)*
-┃ _Membalikan pengejaan kalimat_
-┠⊷️ *${prefix}Hilih (Teks)*
-┃ _Mengubah huruf vokal jadi i_
-┠⊷️ *${prefix}Namae (Teks)*
-┃ _Nama ninpushnameu_
-┠⊷️ *${prefix}Pantun*
-┃ _Random pantun_
-┠⊷️ *${prefix}Bucin*
-┃ _Random kata kata bucin_
-┠⊷️ *${prefix}Bijak*
-┃ _Random kata kata motivasi_
-┠⊷️ *${prefix}Chatprank (Teks1/Teks2)*
-┃ _Ex : ${prefix}Chatprank hai bang/sat_
-┠⊷️ *${prefix}Itsme*
-┃ _Menampilkan profil_
-┠⊷️ *${prefix}Fml*
-┃ _Quotes Fuck My Life_
-┠⊷️ *${prefix}Asupan*
-┃ _Video penyegar timeline_
-┠⊷️ *${prefix}Tagme*
-┃ _Auto tag_
-┠⊷️ *${prefix}Fitnah (Tag target|teks1|teks2)*
-┃ _Fake reply chat bot_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 MEDIA 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}listvn*
-┃ _Menampilkan list vn bot_
-┠⊷️ *${prefix}listimg*
-┃ _Menampilkan list foto_
-┠⊷️ *${prefix}liststik*
-┃ _Menampilkan list stiker bot_
-┠⊷️ *${prefix}listvid*
-┃ _Menampilkan list video_
-┠⊷️ *${prefix}Tupai (Reply audio)*
-┃ _Rubah suara jadi chipmunk_
-┠⊷️ *${prefix}Slow (Reply audio)*
-┃ _Rubah kecepatan audio_
-┠⊷️ *${prefix}Gemuk (Reply audio)*
-┃ _Rubah suara rendah_
-┠⊷️ *${prefix}Bass (Reply audio)*
-┃ _Menaikan bass audio_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 EDITING 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Gtav (Foto)*
-┃ _Membuat banner GTAV dari foto_
-┠⊷️ *${prefix}Wanted (Foto)*
-┃ _Membuat poster WANTED dari foto_
-┠⊷️ *${prefix}Drawing (Foto)*
-┃ _Filter foto pencil sketch_
-┗━━━━━━━━━━━━━━━━━━━━
 *〘 ANIME 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Kusonime (Query)*
@@ -727,31 +647,6 @@ _${Ig}_
 ┃ _Searching gambar anime loli_
 ┠⊷️ *${prefix}Neko*
 ┃ _Searching gambar anime neko_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 GAME 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Tebakgambar*
-┃ _Random tebak gambar_
-┠⊷️ *${prefix}Caklontong*
-┃ _Random quiz cak lontong_
-┠⊷️ *${prefix}Seberapagay (Teks)*
-┃ _Presentase gay_
-┠⊷️ *${prefix}Seberapabucin (Teks)*
-┃ _Presentase bucin_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 TOD 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷ *${prefix}Truth*
-┠⊷ *${prefix}Dare*
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 KERANG AJAIB 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷ *${prefix}Apakah (Teks)*
-┠⊷ *${prefix}Bisakah (Teks)*
-┠⊷ *${prefix}Kapankah (Teks)*
-┠⊷ *${prefix}Rate (Teks)*
-┠⊷ *${prefix}Gantengcek (Teks)*
-┠⊷ *${prefix}Cantikcek (Teks)*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 TOOLS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -784,23 +679,7 @@ _${Ig}_
 ┠⊷️ *${prefix}Wait*
 ┃ _Info anime dari gambar anime_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 TEXT 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Tahta (Teks)*
-┃ _Ex : ${prefix}Tahta Lexa_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 TEXT2 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Ephoto list*
-┃ _Menampilkan kode text ephoto_
-┠⊷️ *${prefix}Ephoto (Kode + Teks)*
-┃ _Ex : ${prefix}Ephoto 25 Lexa_
-┠⊷️ *${prefix}Textpro list*
-┃ _Menampilkan kode text textpro_
-┠⊷️ *${prefix}Textpro (Kode + Teks)*
-┃ _Ex : ${prefix}Textpro 55 Lexa_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 PICTURE 〙*
+*〘 FOTOGRAFIA 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Cogan*
 ┃ _Random foto cogan_
@@ -855,32 +734,6 @@ _${Ig}_
 ┠⊷️ *${prefix}Gplaystore*
 ┃ _Pencarian aplikasi di playstore_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 PRIMBON 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Arti (Nama)*
-┃ _Mencari tau arti namamu_
-┠⊷️ *${prefix}Couple (Nama & Nama)*
-┃ _Kecocokan berdasarkan nama_
-┠⊷️ *${prefix}Jadian (Tgl-bln-thn)*
-┃ _Karakteristik dari tanggal jadian_
-┠⊷️ *${prefix}Weton (Tgl-bln-thn)*
-┃ _Info weton tanggal lahir_
-┠⊷️ *${prefix}Zodiak (Teks)*
-┃ _Ramalan zodiak harian_
-┠⊷️ *${prefix}Artimimpi (Teks)*
-┃ _Mencari tau arti mimpi kamu_
-┗━━━━━━━━━━━━━━━━━━━━
-*〘 ISLAM 〙*
-┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Alquran (Nomor surah)*
-┃ _Menampilkan surah dalam Al-Qur'an_
-┠⊷️ *${prefix}Ngaji*
-┃ _Random ayat dalam surah Al-Qur'an_
-┠⊷️ *${prefix}Tafsir (Query)*
-┃ _Mencari tafsir dalam Al-Qur'an_
-┠⊷️ *${prefix}Sholat (Daerah)*
-┃ _Info jadwal sholat daerah_
-┗━━━━━━━━━━━━━━━━━━━━
 *〘 WEATHER 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Cuaca (Daerah)*
@@ -889,7 +742,7 @@ _${Ig}_
 ┃ _Menampilkan info gempa terkini_
 ┃━━━━━━━━━━━━━━━━━━━━
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 download 〙*
+*〘 descarga 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Ytmp3 (Link)*
 ┃ _Download audio youtube_
