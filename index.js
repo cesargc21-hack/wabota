@@ -266,7 +266,7 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `Hai @${num.split('@')[0]}
+				teks = `HOLA!✋ @${num.split('@')[0]}
 Selamat datang di
 *${mdata.subject}*
 ────────────────
