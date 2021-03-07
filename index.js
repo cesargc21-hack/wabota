@@ -3608,7 +3608,7 @@ break
 						fs.writeFileSync('./data/welkom.json', JSON.stringify(welkom))
 						reply('Desactivar con éxito 🔴 la función de bienvenida en este grupo')
 					} else {
-						reply('1 para activar, 0 para desactivarn')
+						reply('1 para activar, 0 para desactivar')
 					}
                                       break
 				case 'clone':
@@ -3645,7 +3645,7 @@ break
 
 				default:
 				if (body.startsWith(`${prefix}${command}`)) {
-  reply(`        ────────────────\nHola *${pushname}* !!!\nPerintah/Comando : *${prefix}${command}*\nNo está en *${prefix}Menu*\n        ────────────────`)
+  reply(`        ────────────────\nHai *${pushname}* !!!\nPerintah/Command : *${prefix}${command}*\nTidak ada dalam *${prefix}Menu*\n        ────────────────`)
 				}
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
