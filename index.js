@@ -320,16 +320,16 @@ Ketik ${prefix}verify untuk memulai menggunakan bot.`
       const is = budy.slice(0).trim().split(/ +/).shift().toLowerCase()
 			mess = {
   wait: '⚆ _ ⚆ -» ⏳ Por favor esperé ⏳',
-  success: '```Éxito``` ＼(^ω^＼)',
+  success: '🚩 ```Éxito``` ＼(^ω^＼)',
   Public: '*☒* fitur dalam mode private sekarang hanya owner yang dapat menggunakan bot',
-  ferr: '(◎_◎;) ```Lo siento, ha ocurrido un  un error```',
+  ferr: '(◎_◎;)╭☞ ```Lo siento, ha ocurrido un  un error``` 📉',
   limitend: 'Maaf limit kamu telah habis, silahkan lakukan pembelian ulang.',
   error: {
-  stick: '╮( ˘ ､ ˘ )╭ ```Inténtelo de nuevo más tarde```',
-  Iv: '*☒* Link Error'
+  stick: '╮( ˘ ､ ˘ )╭ ```Inténtelo de nuevo más tarde``` 🕑',
+  Iv: '┌╏✖_✖╏┘```Error de enlace```'
   },
   only: {
-    group: '*☒* Fitur ini hanya untuk *GRUP*',
+    group: '(☞°ヮ°)☞```Esta función es solo para el GRUPO``` ☜(°ヮ°☜)',
     ownerG: '*☒* Fitur ini hanya untuk *OWNER GRUP*',
     ownerB: '*☒* Fitur ini hanya untuk *OWNER BOT*',
     admin: '*☒* Fitur ini hanya untuk *ADMIN GRUP*',
