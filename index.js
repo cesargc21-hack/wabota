@@ -745,34 +745,34 @@ Hola *${pushname}*
 *〘 descarga 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Ytmp3 (Link)*
-┃ _Download audio youtube_
+┃ _Descarga audios de youtube_
 ┠⊷️ *${prefix}Ytmp4 (Link)*
-┃ _Download video youtube_
+┃ _Descarga videos de youtube_
 ┠⊷️ *${prefix}Fb (Link)*
-┃ _Download video Facebook_
+┃ _Descarga videos de Facebook_
 ┠⊷️ *${prefix}Ig (Link)*
-┃ _Download video Instagram_
+┃ _Descarga videos de Instagram_
 ┠⊷️ *${prefix}Scdl (Link)*
-┃ _Download lagu SoundCloud_
+┃ _Descarga canciones de SoundCloud_
 ┠⊷️ *${prefix}Tik (Link)*
-┃ _Download video Tiktok_
+┃ _Descarga videos de Tiktok_
 ┠⊷️ *${prefix}Pin (Link)*
-┃ _Download video Pinterest_
+┃ _Descarga videos de Pinterest_
 ┠⊷️ *${prefix}Joox (Judul lagu*)
-┃ _Download lagu di joox_
+┃ _Descarga canciones de joox_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 OWNER 〙*
+*〘 DUEÑO 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Clone*
-┃ _Cloning foro profil target_
+┃ _Copia perfil seleccionado_
 ┠⊷️ *${prefix}Block*
-┃ _Block nomor target_
+┃ _Bloquear número_
 ┠⊷️ *${prefix}Unblock*
-┃ _UnBlock nomor target_
+┃ _Desbloquear número_
 ┠⊷️ *${prefix}Bc*
-┃ _Pesan Broadcast_
+┃ _Mensaje de difusión_
 ┠⊷️ *${prefix}Blocklist*
-┃ _List user terblokir_
+┃ _Lista de usuarios bloqueados_
 ┗━━━━━━━━━━━━━━━━━━━━`,
 
 contextInfo: {
