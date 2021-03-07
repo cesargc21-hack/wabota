@@ -587,8 +587,8 @@ Hai *${pushname}*
 ‣ Prefijo:  *「 ${prefix} 」*
 ‣ Nombre: *I'm Lexa V.2*
 ‣ WAConnection: *Baileys*
-‣ Status online: *${kyun(uptime)}*
-‣ Mengetik: *ON*
+‣ Estado en linea: *${kyun(uptime)}*
+‣ Tipo: *ON*
 ‣ Grupo:  *${groupName}*
 ‣ Número de usuarios : *${_registered.length} User*
 ‣ Número de chats : *${totalchat.length} Chat*
@@ -601,35 +601,35 @@ Hai *${pushname}*
 ┠⊷️ *${prefix}Listadmin*
 ┃ _Lista de administradores_
 ┠⊷️ *${prefix}Listonline*
-┃ _Menampilkan list member online_
+┃ _Muestra lista de miembros en linea_
 ┠⊷️ *${prefix}Closegc*
-┃ _Menutup Grup_
+┃ _Grupo cerrado_
 ┠⊷️ *${prefix}Opengc*
-┃ _Membuka Grup_
+┃ _Grupo abierto_
 ┠⊷️ *${prefix}Promote*
-┃ _Menaikan jabatan admin_
+┃ _Dar admin_
 ┠⊷️ *${prefix}Demote*
-┃ _Menurunkan jabatan admin_
+┃ _Quitar admin_
 ┠⊷️ *${prefix}Setname*
-┃ _Mengganti nama grup_
+┃ _Cambiar nombre del grupo_
 ┠⊷️ *${prefix}Setdesk*
-┃ _Mengganti deskripsi grup_
+┃ _Cambiar descripción del grupo_
 ┠⊷️ *${prefix}Add*
-┃ _Menambah member_
+┃ _Añadir miembo_
 ┠⊷️ *${prefix}Kick*
-┃ _Mengeluarkan member_
+┃ _Eliminar miembro_
 ┠⊷️ *${prefix}Tagall*
-┃ _Tag All members_
+┃ _Etiquetar todos los miembros_
 ┠⊷️ *${prefix}Linkgc*
-┃ _Mengambil link grup_
+┃ _Busca enlace del grupo_
 ┠⊷️ *${prefix}Leave*
-┃ _Mengeluarkan bot_
+┃ _Quitar bot_
 ┠⊷️ *${prefix}Notif*
-┃ _Memberi notif ke all members_
+┃ _Notificar a todos los miembros_
 ┠⊷️ *${prefix}Welcome*
 ┃ _On/off welcome_
-┠⊷️ *${prefix}Delete (Reply pesan)*
-┃ _Menghapus pesan Bot_
+┠⊷️ *${prefix}Delete (Mensaje de respuesta)*
+┃ _Eliminar mensajes del bot_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 ANIME 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
