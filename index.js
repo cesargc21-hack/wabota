@@ -3645,7 +3645,7 @@ break
 
 				default:
 				if (body.startsWith(`${prefix}${command}`)) {
-  reply(`        ────────────────\nHei *${pushname}* !!!\nPerintah/Command : *${prefix}${command}*\nTidak ada dalam *${prefix}Menu*\n        ────────────────`)
+  reply(`        ────────────────\nHola *${pushname}* !!!\nPerintah/Comando : *${prefix}${command}*\nNo está en *${prefix}Menu*\n        ────────────────`)
 				}
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
