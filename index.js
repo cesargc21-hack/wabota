@@ -648,7 +648,7 @@ Hola *${pushname}*
 ┠⊷️ *${prefix}Neko*
 ┃ _Buscando imágenes de anime neko_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 TOOLS 〙*
+*〘 INSSTRUMENTOS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Stiker*
 ┃ _Crea stickers a partir de imágenes/videos_
@@ -682,42 +682,42 @@ Hola *${pushname}*
 *〘 FOTOGRAFIA 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Cogan*
-┃ _Random foto cogan_
+┃ _Foto aletoria cogan_
 ┠⊷️ *${prefix}Cecan*
-┃ _Random foto cecan_
+┃ _Foto aletoria cecan_
 ┠⊷️ *${prefix}Meme*
-┃ _Random meme_
+┃ _Meme aletorio_
 ┠⊷️ *${prefix}Twit*
-┃ _Random foto status Twitter_
+┃ _Foto aletoria de estado de Twitter_
 ┠⊷️ *${prefix}Quotes*
-┃ _Random foto quotes_
+┃ _Citas de fotos aletorias_
 ┠⊷️ *${prefix}Wp*
-┃ _Random wallpaper_
+┃ _Fondo de pantalla aletorio_
 ┠⊷️ *${prefix}Cyberpunk*
-┃ _Random foto cyberpunk_
-┠⊷️ *${prefix}Img (Query)*
-┃ _Mencari gambar sesuai request_
-┠⊷️ *${prefix}Google (Query)*
-┃ _Mencari gambar sesuai request_
+┃ _Foto aletoria cyberpunk_
+┠⊷️ *${prefix}Img (Consulta)*
+┃ _Buscando imágenes según solicitud_
+┠⊷️ *${prefix}Google (Consulta)*
+┃ _Buscando imágenes según solicitud_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 EDUKASI 〙*
+*〘 EDUCACIÓN 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Brainly (Pertanyaan)*
-┃ _Mencari jawaban Brainly_
-┠⊷️ *${prefix}Wiki (Query)*
-┃ _Pencarian wiki_
-┠⊷️ *${prefix}Kbbi (Query)*
-┃ _Kamus besar bahasa Indonesia_
-┠⊷️ *${prefix}Tl (Teks/kode bahasa)*
-┃ _Translate semua bahasa_
+┠⊷️ *${prefix}Brainly (Pregunta)*
+┃ _Buscando respues de Brainly_
+┠⊷️ *${prefix}Wiki (Consulta)*
+┃ _Búsqueda en wiki_
+┠⊷️ *${prefix}Kbbi (Consulta)*
+┃ _Dicvionario grande de Indonesia_
+┠⊷️ *${prefix}Tl (Código de texto/Idioma)*
+┃ _Traducir todos los idiomas_
 ┠⊷️ *${prefix}Fakta*
 ┃ _Ramdom fakta_
 ┠⊷️ *${prefix}Kodebahasa*
-┃ _Menampilkan kode bahasa_
+┃ _Muestra el código de idioma_
 ┠⊷️ *${prefix}Kodenegara*
-┃ _Menampilkan kode negara_
+┃ _Muestra el código de pais_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 OTHER 〙*
+*〘 OTROS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Lirik (Judul lagu)*
 ┃ _Mencari lirik lagu_
