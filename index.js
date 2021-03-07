@@ -330,11 +330,11 @@ Ketik ${prefix}verify untuk memulai menggunakan bot.`
   },
   only: {
     group: '(☞°ヮ°)☞```Esta función es solo para el GRUPO``` ☜(°ヮ°☜)',
-    ownerG: '*☒* Fitur ini hanya untuk *OWNER GRUP*',
-    ownerB: '*☒* Fitur ini hanya untuk *OWNER BOT*',
-    admin: '*☒* Fitur ini hanya untuk *ADMIN GRUP*',
-    Badmin: '*☒* Jadikan Lexa *ADMIN !*',
-    daftarB: `Hai, Ketik *${prefix}verify* untuk memulai menggunakan bot`
+    ownerG: '( ﾐΦﻌΦ)╭☞``` Wall-E sólo trabaja para este Grupo```',
+    ownerB: '(￣^￣)ゞ```Esta función es solo para el dueño de Wall-E```',
+    admin: '(つ >ω●)つ```Esta función es solo para ADMINISTRADORES DEL GRUPO```',
+    Badmin: '```¡Haz a Wall-E ADMIN!```',
+    daftarB: `(つ >ω●)つ```Esta función es solo para ADMINISTRADORES DEL GRUPO````
   }
 }
       const totalchat = await Lxa.chats.all()
