@@ -267,19 +267,14 @@ async function starts() {
 			if (anu.action == 'add') {
 				num = anu.participants[0]
 				teks = `HOLA!✋ @${num.split('@')[0]}
-Selamat datang di
+Bienvenid@ a...
 *${mdata.subject}*
-────────────────
-┏━━━━━━━━━━━━━━━━━━━━
-┃──────〘  *Intro* 〙───────
-┃━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *Nombre* :
-┠⊷️ *Edad* :
-┠⊷️ *Ciudad* :
-┠⊷️ *Genero* :
-┗━━━━━━━━━━━━━━━━━━━━
-
-Ketik ${prefix}verify untuk memulai menggunakan bot.`
+──────────────
+ıllıllı ──────────────
+Por favor lea las reglas, estan en la 
+descripción del grupo y evite ser
+Eliminad@
+───────────── ıllıllı`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
