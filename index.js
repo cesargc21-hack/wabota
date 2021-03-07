@@ -719,27 +719,27 @@ Hola *${pushname}*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 OTROS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Lirik (Judul lagu)*
-┃ _Mencari lirik lagu_
-┠⊷️ *${prefix}Chord (Judul lagu*)
-┃ _Mencari chord lagu_
+┠⊷️ *${prefix}Lirik (Título de la canción)*
+┃ _Buscando letras de canciones_
+┠⊷️ *${prefix}Chord (Título de la canción*)
+┃ _Buscando acorde de canción_
 ┠⊷️ *${prefix}Jadwaltvnow*
 ┃ _Jadwal tv pushname ini tayang_
-┠⊷️ *${prefix}Map (Daerah)*
-┃ _Menampilkan mini map_
+┠⊷️ *${prefix}Map (Región)*
+┃ _Muestra mini mapa_
 ┠⊷️ *${prefix}Trendtwit*
-┃ _Menampilkan trend Twitter_
+┃ _Muestra las tendencias de Twitter_
 ┠⊷️ *${prefix}Beritahoax*
-┃ _Menampilkan info berita palsu_
+┃ _Muestra información de noticias falsas_
 ┠⊷️ *${prefix}Gplaystore*
-┃ _Pencarian aplikasi di playstore_
+┃ _Buesqueda de aplicaciones en playstore_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 WEATHER 〙*
+*〘 CLIMA 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
-┠⊷️ *${prefix}Cuaca (Daerah)*
-┃ _Menampilkan info cuaca_
+┠⊷️ *${prefix}Cuaca (Área)*
+┃ _Muestra información meteorológica_
 ┠⊷️ *${prefix}Infogempa*
-┃ _Menampilkan info gempa terkini_
+┃ _Muestra la información más reciente del terremoto_
 ┃━━━━━━━━━━━━━━━━━━━━
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 descarga 〙*
