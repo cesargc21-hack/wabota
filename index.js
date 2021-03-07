@@ -320,12 +320,12 @@ Ketik ${prefix}verify untuk memulai menggunakan bot.`
       const is = budy.slice(0).trim().split(/ +/).shift().toLowerCase()
 			mess = {
   wait: '⚆ _ ⚆ -» ⏳ Por favor esperé ⏳',
-  success: '*☉* Berhasil',
+  success: '```Éxito``` ＼(^ω^＼)',
   Public: '*☒* fitur dalam mode private sekarang hanya owner yang dapat menggunakan bot',
-  ferr: 'Maaf sepertinya fitur sedang Error',
+  ferr: '(◎_◎;) ```Lo siento, ha ocurrido un  un error```',
   limitend: 'Maaf limit kamu telah habis, silahkan lakukan pembelian ulang.',
   error: {
-  stick: '*☒* Silakan ulangi beberapa saat lagi',
+  stick: '╮( ˘ ､ ˘ )╭ ```Inténtelo de nuevo más tarde```',
   Iv: '*☒* Link Error'
   },
   only: {
