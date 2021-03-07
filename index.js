@@ -329,7 +329,7 @@ Eliminad@
     ownerB: '(￣^￣)ゞ```Esta función es solo para el dueño de Wall-E```',
     admin: '(つ >ω●)つ```Esta función es solo para ADMINISTRADORES DEL GRUPO```',
     Badmin: '```¡Haz a Wall-E ADMIN!```',
-    daftarB: `(つ >ω●)つ```Esta función es solo para ADMINISTRADORES DEL GRUPO````
+    daftarB: `(つ >ω●)つ Esta función es solo para ADMINISTRADORES DEL GRUPO`
   }
 }
       const totalchat = await Lxa.chats.all()
