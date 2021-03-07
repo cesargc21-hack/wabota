@@ -3602,13 +3602,13 @@ break
 						if (isWelkom) return reply('Udah aktif um')
 						welkom.push(from)
 						fs.writeFileSync('./data/welkom.json', JSON.stringify(welkom))
-						reply('Sukses mengaktifkan fitur welcome di group ini')
+						reply('Activado con éxito 🟢 la función de bienvenida en este grupo')
 					} else if (Number(args[0]) === 0) {
 						welkom.splice(from, 1)
 						fs.writeFileSync('./data/welkom.json', JSON.stringify(welkom))
-						reply('Sukses menonaktifkan fitur welcome di group ini')
+						reply('Desactivar con éxito 🔴 la función de bienvenida en este grupo')
 					} else {
-						reply('1 untuk mengaktifkan, 0 untuk menonaktifkan')
+						reply('1 para activar, 0 para desactivarn')
 					}
                                       break
 				case 'clone':
