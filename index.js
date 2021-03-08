@@ -3493,7 +3493,7 @@ case 'closegc':
   if (!isBotGroupAdmins) return reply(mess.only.Badmin)
   var nomor = mek.participant
   const close = {
-text: `Grup ditutup oleh admin @${nomor.split("@s.whatsapp.net")[0]}\nsekarang *hanya admin* yang dapat mengirim pesan`,
+text: `Grupo cerrado 🔐 @${nomor.split("@s.whatsapp.net")[0]}\nsekarang *hanya admin* yang dapat mengirim pesan`,
 contextInfo: {
   mentionedJid: [nomor]
 }
