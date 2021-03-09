@@ -266,15 +266,15 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `HOLA!✋ @${num.split('@')[0]}
-Bienvenid@ a...
+				teks = `*HOLA!*✋ @${num.split('@')[0]}
+BIENVENID@ A...
 *${mdata.subject}*
 ──────────────
-ıllıllı ──────────────
-Por favor lea las reglas, estan en la 
-descripción del grupo y evite ser
-Eliminad@
-───────────── ıllıllı`
+·٠•●✨ ──────────────
+```Por favor lee las reglas, Estan en la
+ descripción del grupo y evita ser
+ eliminad@```
+───────────── ✨●•٠·`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
@@ -580,7 +580,7 @@ Hola *${pushname}*
         ────────────────
 〘 *BOT* 〙
 ‣ Prefijo:  *「 ${prefix} 」*
-‣ Nombre: *I'm Lexa V.2*
+‣ Nombre: *Bender*
 ‣ WAConnection: *Baileys*
 ‣ Estado en linea: *${kyun(uptime)}*
 ‣ Tipo: *ON*
@@ -657,22 +657,13 @@ Hola *${pushname}*
 ┃ _Convierte sticker en imagen_
 ┠⊷️ *${prefix}Tomp3*
 ┃ _Convierte vídeo en audio_
-┠⊷️ *${prefix}Play (Texto)*
-┃ _Reproducción de canciones_
 ┠⊷️ *${prefix}Tts (Texto)*
 ┃ _Convierte texto en audio_
-┠⊷️ *${prefix}Igstalk (Nombre de usuario)*
-┃ _Stalking Instagram_
 ┠⊷️ *${prefix}Timer (Hora)*
 ┃ _Conometro_
-┠⊷️ *${prefix}Wame*
-┃ _Crea enlace wa.me_
-┠⊷️ *${prefix}Nulis (Texto)*
-┃ _Escribir en libro_
 ┠⊷️ *${prefix}Ocr*
 ┃ _Copiar texto de imagen_
 ┠⊷️ *${prefix}Wait*
-┃ _Información de anime de imágenes de anime_
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 FOTOGRAFIA 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -3493,7 +3484,8 @@ case 'closegc':
   if (!isBotGroupAdmins) return reply(mess.only.Badmin)
   var nomor = mek.participant
   const close = {
-text: `Grupo cerrado 🔐 @${nomor.split("@s.whatsapp.net")[0]}\nsekarang *hanya admin* yang dapat mengirim pesan`,
+text: `*Grupo cerrado* 🔐 @${nomor.split("@s.whatsapp.net")[0]}\nBuenas noches!
+──────────────`,
 contextInfo: {
   mentionedJid: [nomor]
 }
@@ -3510,7 +3502,8 @@ if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 open = {
-  text: `Grup dibuka oleh admin @${sender.split("@")[0]}\nsekarang *semua peserta* dapat mengirim pesan`,
+  text: `*Grupo abierto 🔓* @${sender.split("@")[0]}\nBuenos días!
+──────────────`,
   contextInfo: {
 mentionedJid: [sender]
   }
