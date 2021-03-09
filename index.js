@@ -278,7 +278,7 @@ BIENVENID@ A...
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Selamat tinggal @${num.split('@')[0]}👋`
+				teks = `*Adiós* @${num.split('@')[0]}👋`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -643,7 +643,7 @@ Hola *${pushname}*
 ┠⊷️ *${prefix}Neko*
 ┃ _Buscando imágenes de anime neko_
 ┗━━━━━━━━━━━━━━━━━━━━
-*〘 INSSTRUMENTOS 〙*
+*〘 INSTRUMENTOS 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
 ┠⊷️ *${prefix}Stiker*
 ┃ _Crea stickers a partir de imágenes/videos_
@@ -655,15 +655,12 @@ Hola *${pushname}*
 ┃ _Crear pegatinas a partir de texto_
 ┠⊷️ *${prefix}Toimg*
 ┃ _Convierte sticker en imagen_
-┠⊷️ *${prefix}Tomp3*
-┃ _Convierte vídeo en audio_
 ┠⊷️ *${prefix}Tts (Texto)*
 ┃ _Convierte texto en audio_
 ┠⊷️ *${prefix}Timer (Hora)*
 ┃ _Conometro_
 ┠⊷️ *${prefix}Ocr*
 ┃ _Copiar texto de imagen_
-┠⊷️ *${prefix}Wait*
 ┗━━━━━━━━━━━━━━━━━━━━
 *〘 FOTOGRAFIA 〙*
 ┏━━━━━━━━━━━━━━━━━━━━
@@ -692,12 +689,8 @@ Hola *${pushname}*
 ┃ _Buscando respues de Brainly_
 ┠⊷️ *${prefix}Wiki (Consulta)*
 ┃ _Búsqueda en wiki_
-┠⊷️ *${prefix}Kbbi (Consulta)*
-┃ _Dicvionario grande de Indonesia_
 ┠⊷️ *${prefix}Tl (Código de texto/Idioma)*
 ┃ _Traducir todos los idiomas_
-┠⊷️ *${prefix}Fakta*
-┃ _Ramdom fakta_
 ┠⊷️ *${prefix}Kodebahasa*
 ┃ _Muestra el código de idioma_
 ┠⊷️ *${prefix}Kodenegara*
