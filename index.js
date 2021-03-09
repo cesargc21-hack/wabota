@@ -271,9 +271,9 @@ BIENVENID@ A...
 *${mdata.subject}*
 ──────────────
 ·٠•●✨ ──────────────
-```Por favor lee las reglas, Estan en la
- descripción del grupo y evita ser
- eliminad@```
+📌Por favor lee las reglas, Estan en la
+  descripción del grupo y evita ser
+  eliminad@
 ───────────── ✨●•٠·`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
