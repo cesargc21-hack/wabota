@@ -278,7 +278,7 @@ BIENVENID@ A...
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `*Adiós* @${num.split('@')[0]}popo💩`
+				teks = `*Adiós* @${num.split('@')[0]}*popó*💩`
 				Lxa.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
