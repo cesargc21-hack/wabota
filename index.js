@@ -354,6 +354,14 @@ BIENVENID@ A...
 			const isUrl = (url) => {
 			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 			}
+//--ANTI LINK GRUP
+                        if(mesejAnti.includes("://chat.whatsapp.com/")){
+                   if (!isGroup) return
+                   if (!isAntiLink) return
+                   if (isGroupAdmins) return reply('Admin Grup Mah Bebas:D')
+                   client.updatePresence(from, Presence.composing)
+                   if (mesejAnti.includes(",izincok")) return reply("jangan spam anjg")
+
 			
 //--Balasan bot
 			const reply = (teks) => {
@@ -3311,14 +3319,15 @@ break
 						mentions(`Perintah di terima, mengeluarkan : @${mentioned[0].split('@')[0]}`, mentioned, true)
 						Lxa.groupRemove(from, mentioned)
 					}
-					break
+				        break
 
 //--list admin grup
 				case 'listadmins':
 				  case 'listadmin':
 				    case 'adminlist':
 					if (!isGroup) return reply(mess.only.group)
-					teks = `List admin of group *${groupMetadata.subject}*\nTotal : ${groupAdmins.length}\n\n`
+					teks = `Lista de administradores del grupo
+ *${groupMetadata.subject}*\nTotal : ${groupAdmins.length}\n\n`
 					no = 0
 					for (let admon of groupAdmins) {
 						no += 1
@@ -3449,8 +3458,8 @@ if (isGroup) {
   hasil = `〘  *Verifikasi* 〙
 Kode : *${serialUser}*
 ╔════════════════════
-╠≽️ *Nama* : *${namaUser}*
-╠≽️ *Nomor* : *${sender.split("@")[0]}*
+╠≽️ *Nombre* : *${namaUser}*
+╠≽️ *Número* : *${sender.split("@")[0]}*
 ╚════════════════════`
 reply(hasil)
   console.log(color('[REGISTER]'), color(time, 'yellow'), 'Name:', color(namaUser, 'cyan'), 'Age:', color(umurUser, 'cyan'), 'Serial:', color(serialUser, 'cyan'), 'in', color(sender || groupName))
@@ -3459,8 +3468,8 @@ reply(hasil)
   hasil = `〘  *Verifikasi* 〙
 Kode : *${serialUser}*
 ╔════════════════════
-╠≽️ *Nama* : *${namaUser}*
-╠≽️ *Nomor* : *${sender.split("@")[0]}*
+╠≽️ *Nombre* : *${namaUser}*
+╠≽️ *Número* : *${sender.split("@")[0]}*
 ╚════════════════════`
 reply(hasil)
   console.log(color('[REGISTER]'), color(time, 'yellow'), 'Name:', color(namaUser, 'cyan'), 'Age:', color(umurUser, 'cyan'), 'Serial:', color(serialUser, 'cyan'))
@@ -3631,7 +3640,7 @@ break
 
 				default:
 				if (body.startsWith(`${prefix}${command}`)) {
-  reply(`        ────────────────\nHai *${pushname}* !!!\nPerintah/Command : *${prefix}${command}*\nTidak ada dalam *${prefix}Menu*\n        ────────────────`)
+  reply(`        ────────────────\nHOLA *${pushname}* !!!\nPerintah/Command : *${prefix}${command}*\nTidak ada dalam *${prefix}Menu*\n        ────────────────`)
 				}
 					if (isGroup && isSimi && budy != undefined) {
 						console.log(budy)
