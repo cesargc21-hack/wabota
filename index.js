@@ -271,7 +271,7 @@ BIENVENID@ A...
 *${mdata.subject}*
 ──────────────
 ·٠•●✨ ──────────────
-📌Por favor lee las reglas, Estan en la
+📌Por favor lee las reglas, estan en la
   descripción del grupo y evita ser
   eliminad@
 ───────────── ✨●•٠·`
@@ -325,10 +325,10 @@ BIENVENID@ A...
   },
   only: {
     group: '(☞°ヮ°)☞```Esta función es solo para el GRUPO``` ☜(°ヮ°☜)',
-    ownerG: '( ﾐΦﻌΦ)╭☞``` Wall-E sólo trabaja para este Grupo```',
+    ownerG: '( ﾐΦﻌΦ)╭☞``` Bender sólo trabaja para este Grupo```',
     ownerB: '(￣^￣)ゞ```Esta función es solo para el dueño de Wall-E```',
     admin: '(つ >ω●)つ```Esta función es solo para ADMINISTRADORES DEL GRUPO```',
-    Badmin: '```¡Haz a Wall-E ADMIN!```',
+    Badmin: '```¡Haz a Bender ADMIN!```',
     daftarB: `(つ >ω●)つ Esta función es solo para ADMINISTRADORES DEL GRUPO`
   }
 }
