@@ -509,23 +509,6 @@ console.error(err)
 }
 */
 
-//--Member limit
-if (isGroup) {
-  try {
-const getmemex = groupMembers.length
-if (getmemex <= memberlimit) {
-  Lxa.sendMessage(from, `Maaf syarat member harus di atas ${memberlimit}, selamat tinggal 👋🏻`, text)
-
-  setTimeout(() => {
-Lxa.groupLeave(from) // ur cods
-  }, 5000) // 1000 = 1s,
-}
-  } catch {
-console.error(err)
-  }
-}
-
-
 //--Other Function
 const apakah = ['Ya',
   'Tidak',
