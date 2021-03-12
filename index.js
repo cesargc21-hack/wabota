@@ -2806,6 +2806,27 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 				teks += `\n*Total : ${setiker.length}*\nGunakan perintah\n*${prefix}getstik (nama pack)*\nuntuk mengambil stiker`
 				Lxa.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": setiker } })
 				break
+                        case 'antilinkgrup':
+		                if (!isGroup) return reply(ind.groupo())
+				if (!isGroupAdmins) return reply(ind.admin())
+				if (!isBotGroupAdmins) return reply(ind.badmin())					
+				if (args.length < 1) return reply('ketik 1 untuk mengaktifkan')
+				if (Number(args[0]) === 1) {
+					if (isAntiLink) return reply('UDAH NYALA WOI!!')
+					antilink.push(from)
+					fs.writeFileSync('./database/group/antilink.json', JSON.stringify(antilink))
+					reply('ANTI-LINK ACTIVADO')
+					client.sendMessage(from,`ALLERT!!! Jika bukan admin jangan kirim link grup`, text)
+				} else if (Number(args[0]) === 0) {
+					if (!isAntiLink) return reply('EMANG AKTIF?')
+					var ini = anti.botLangsexOf(from)
+					antilink.splice(ini, 1)
+					fs.writeFileSync('./database/group/antilink.json', JSON.stringify(antilink))
+					reply('ANTI-LINK DESACTIVADO')
+				} else {
+					reply('1 para activar, 0 para desactivar')
+				}
+				break
 			
 			case 'totaluser':
 				teks = '*Total User :*\n\n'
