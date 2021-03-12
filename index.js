@@ -2748,6 +2748,45 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 						reply(`Kirim gambar dengan caption ${prefix}sticker atau tag gambar yang sudah dikirim`)
 					}
 					break
+// ANTI LINK GRUP
+               	        if (mesejAnti.includes("://chat.whatsapp.com/")){
+		        if (!isGroup) return
+		        if (!isAntiLink) return
+		        if (isGroupAdmins) return reply('Admin Grup Mah Bebas:D')
+		        client.updatePresence(from, Presence.composing)
+		        if (mesejAnti.includes(",izincok")) return reply("jangan spam anjg")
+		        var kic = `${sender.split("@")[0]}@s.whatsapp.net`
+		        reply(`Maaf kak ${sender.split("@")[0]} Grup ini anti link, siap siap kamu di kick`)
+		        setTimeout( () => {
+			        client.groupRemove(from, [kic]).catch((e)=>{reply(`*DapBOT~ HARUS JADI ADMIN├в┬ЭтАФ*`)})
+		        }, 3000)
+		        setTimeout( () => {
+			        client.updatePresence(from, Presence.composing)
+			        reply("Mampus Gua Kick....")
+		        }, 2000)
+		        setTimeout( () => {
+			        client.updatePresence(from, Presence.composing)
+			        reply("Ngeyel Amat Dibilangin...")
+		        }, 1000)
+		        setTimeout( () => {
+			        client.updatePresence(from, Presence.composing)
+			        reply("Hmmm...")
+		        }, 0)
+		  }
+
+        if (isGroup && isBadWord) {
+            if (bad.includes(messagesC)) {
+                if (!isGroupAdmins) {
+                    return reply("JAGA UCAPAN DONG!! ЁЯШа")
+                        .then(() => client.groupRemove(from, sender))
+                        .then(() => {
+                            client.sendMessage(from, `*уАМ ANTI BADWORD уАН*\nKamu dikick karena berkata kasar!`, text ,{quoted: mek})
+                        }).catch(() => client.sendMessage(from, `Untung cya bukan admin, kalo admin udah cya kick!`, text , {quoted : mek}))
+                } else {
+                    return reply( "Tolong Jaga Ucapan Min ЁЯШЗ")
+                }
+            }
+        }
 
 //-- temp
 			case 'gets':
