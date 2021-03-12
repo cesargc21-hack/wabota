@@ -50,6 +50,7 @@ const axios = require('axios');
 
 //--File json bot
 const welkom = JSON.parse(fs.readFileSync('./data/welkom.json'));
+const antilink = JSON.parse(fs.readFileSync('./data/antilink.json'))
 const up = JSON.parse(fs.readFileSync('./data/settings.json'));
 const samih = JSON.parse(fs.readFileSync('./data/simi.json'))
 //--
@@ -345,6 +346,7 @@ BIENVENID@ A...
 			const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 			const isGroupAdmins = groupAdmins.includes(sender) || false
 			const isWelkom = isGroup ? welkom.includes(from) : false
+                        const isAntiLink = isGroup ? antilink.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
 			const isSimi = isGroup ? samih.includes(from): false
       const isRegister = checkRegisteredUser(sender)
@@ -354,14 +356,6 @@ BIENVENID@ A...
 			const isUrl = (url) => {
 			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
 			}
-//--ANTI LINK GRUP
-                        if(mesejAnti.includes("://chat.whatsapp.com/")){
-                   if (!isGroup) return
-                   if (!isAntiLink) return
-                   if (isGroupAdmins) return reply('Admin Grup Mah Bebas:D')
-                   client.updatePresence(from, Presence.composing)
-                   if (mesejAnti.includes(",izincok")) return reply("jangan spam anjg")
-
 			
 //--Balasan bot
 			const reply = (teks) => {
@@ -2748,7 +2742,7 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 						reply(`Kirim gambar dengan caption ${prefix}sticker atau tag gambar yang sudah dikirim`)
 					}
 					break
-// ANTI LINK GRUP
+//--ANTI LINK GRUP
                	        if (mesejAnti.includes("://chat.whatsapp.com/")){
 		        if (!isGroup) return
 		        if (!isAntiLink) return
@@ -2853,14 +2847,14 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 				if (Number(args[0]) === 1) {
 					if (isAntiLink) return reply('UDAH NYALA WOI!!')
 					antilink.push(from)
-					fs.writeFileSync('./database/group/antilink.json', JSON.stringify(antilink))
+					fs.writeFileSync('./data/antilink.json', JSON.stringify(antilink))
 					reply('ANTI-LINK ACTIVADO')
 					client.sendMessage(from,`ALLERT!!! Jika bukan admin jangan kirim link grup`, text)
 				} else if (Number(args[0]) === 0) {
 					if (!isAntiLink) return reply('EMANG AKTIF?')
 					var ini = anti.botLangsexOf(from)
 					antilink.splice(ini, 1)
-					fs.writeFileSync('./database/group/antilink.json', JSON.stringify(antilink))
+					fs.writeFileSync('./data/antilink.json', JSON.stringify(antilink))
 					reply('ANTI-LINK DESACTIVADO')
 				} else {
 					reply('1 para activar, 0 para desactivar')
